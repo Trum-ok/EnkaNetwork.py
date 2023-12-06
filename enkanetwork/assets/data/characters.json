@@ -1723,7 +1723,7 @@
             876
         ]
     },
-        "10000088": {
+    "10000088": {
         "nameTextMapHash": 1504901486,
         "iconName": "UI_AvatarIcon_Charlotte",
         "sideIconName": "UI_AvatarIcon_Side_Charlotte",
@@ -1743,14 +1743,14 @@
             876
         ]
     },
-        "10000089": {
+    "10000089": {
         "nameTextMapHash": 1504902366,
         "iconName": "UI_AvatarIcon_Furina",
         "sideIconName": "UI_AvatarIcon_Side_Furina",
         "qualityType": "QUALITY_ORANGE",
         "costElemType": "Water",
         "skills": [
-            10871,
+            10987,
             10872,
             10875
         ],

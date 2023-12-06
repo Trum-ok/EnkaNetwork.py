@@ -1454,6 +1454,11 @@
         "skillIcon": "Skill_A_03",
         "proudSkillGroupId": 7131
     },
+    "10777": {
+        "nameTextMapHash": 3116393605,
+        "skillIcon": "Skill_A_01",
+        "proudSkillGroupId": ""
+    },
     "10712": {
         "nameTextMapHash": 584952661,
         "skillIcon": "Skill_S_Cyno_01",
@@ -1683,6 +1688,11 @@
         "nameTextMapHash": 2038141157,
         "skillIcon": "Skill_A_01",
         "proudSkillGroupId": 8331
+    },
+    "10987": {
+        "nameTextMapHash": 2038141157,
+        "skillIcon": "Skill_A_01",
+        "proudSkillGroupId":
     },
     "10832": {
         "nameTextMapHash": 2169745509,
