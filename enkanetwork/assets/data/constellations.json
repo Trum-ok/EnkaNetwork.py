@@ -1846,5 +1846,29 @@
     "876": {
         "nameTextMapHash": 1739750817,
         "icon": "UI_Talent_S_Neuvillette_04"
+    },
+    "877": {
+        "nameTextMapHash": 4222873497,
+        "icon": "UI_Talent_S_Furina_01"
+    },
+    "878": {
+        "nameTextMapHash": 4222873466,
+        "icon": "UI_Talent_S_Furina_04"
+    },
+    "879": {
+        "nameTextMapHash": 3245647811,
+        "icon": "UI_Talent_U_Furina_02"
+    },
+    "880": {
+        "nameTextMapHash": 3245987811,
+        "icon": "UI_Talent_S_Furina_03"
+    },
+    "881": {
+        "nameTextMapHash": 3245977611,
+        "icon": "UI_Talent_U_Furina_01"
+    },
+    "882": {
+        "nameTextMapHash": 5945977611,
+        "icon": "UI_Talent_S_Furina_02"
     }
 }

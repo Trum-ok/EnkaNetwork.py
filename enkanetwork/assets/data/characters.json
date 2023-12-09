@@ -1744,15 +1744,15 @@
         ]
     },
     "10000089": {
-        "nameTextMapHash": 1504902366,
+        "nameTextMapHash": 2180900234,
         "iconName": "UI_AvatarIcon_Furina",
         "sideIconName": "UI_AvatarIcon_Side_Furina",
         "qualityType": "QUALITY_ORANGE",
         "costElemType": "Water",
         "skills": [
-            10987,
-            10872,
-            10875
+            10891,
+            10892,
+            10895
         ],
         "talents": [
             871,

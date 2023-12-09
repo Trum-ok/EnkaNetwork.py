@@ -1689,11 +1689,6 @@
         "skillIcon": "Skill_A_01",
         "proudSkillGroupId": 8331
     },
-    "10987": {
-        "nameTextMapHash": 2038141157,
-        "skillIcon": "Skill_A_01",
-        "proudSkillGroupId":
-    },
     "10832": {
         "nameTextMapHash": 2169745509,
         "skillIcon": "Skill_S_Linette_01",
@@ -1788,6 +1783,21 @@
         "nameTextMapHash": 2195272997,
         "skillIcon": "Skill_E_Neuvillette_01",
         "proudSkillGroupId": 8739
+    },
+    "10891": {
+        "nameTextMapHash": 2195752997,
+        "skillIcon": "Skill_A_01",
+        "proudSkillGroupId": 8931
+    },
+    "10892": {
+        "nameTextMapHash": 2195752897,
+        "skillIcon": "Skill_S_Furina_01",
+        "proudSkillGroupId": 8932
+    },
+    "10895": {
+        "nameTextMapHash": 2195752888,
+        "skillIcon": "Skill_E_Furina_01",
+        "proudSkillGroupId": 8939
     },
     "20001": {
         "nameTextMapHash": 1936482797,
