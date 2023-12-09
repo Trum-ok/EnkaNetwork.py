@@ -7,7 +7,7 @@ from enkanetwork.enum import ElementType, Language, EquipmentsType
 from enkanetwork.model.equipments import Equipments
 
 # Init enkanetwork client
-client = enkanetwork.client.EnkaNetworkAPI(lang=enkanetwork.Language.TH)
+client = enkanetwork.client.EnkaNetworkAPI(lang=enkanetwork.Language.EN)
 
 with open("test.json", "r") as f:
     _j = json.load(f)
