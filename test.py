@@ -12,6 +12,7 @@ client = enkanetwork.client.EnkaNetworkAPI(lang=enkanetwork.Language.EN)
 with open("test.json", "r") as f:
     _j = json.load(f)
 
+
 def test_get_asset_data() -> None:
     """
         Test case 1:
@@ -28,21 +29,21 @@ def test_get_asset_data() -> None:
                 assert data.id == int(ids)  # Check id is correct
             else:
                 if data.skill_id > 0:
-                    assert f"{data.id}-{data.skill_id}" == ids # Check id is correct (Tarveler)
+                    assert f"{data.id}-{data.skill_id}" == ids  # Check id is correct (Tarveler)
 
             assert str(data.id)[:2] != "11"  # Check id is not 11xx (Test character)
             assert data.element in list(ElementType)  # Check element is correct
 
             # Check icon filename
             assert "_AvatarIcon_" in data.images.icon.filename and \
-                "_AvatarIcon_Side_" in data.images.side.filename and \
-                "_Gacha_AvatarImg_" in data.images.banner.filename and \
-                "_Card" in data.images.card.filename
-            
+                   "_AvatarIcon_Side_" in data.images.side.filename and \
+                   "_Gacha_AvatarImg_" in data.images.banner.filename and \
+                   "_Card" in data.images.card.filename
+
             assert data.images.icon.url.startswith("https://") and \
-                data.images.side.url.startswith("https://") and \
-                data.images.banner.url.startswith("https://") and \
-                data.images.card.url.startswith("https://")
+                   data.images.side.url.startswith("https://") and \
+                   data.images.banner.url.startswith("https://") and \
+                   data.images.card.url.startswith("https://")
 
             # Get name hash map
             name = client.assets.get_hash_map(data.hash_id)
@@ -70,6 +71,7 @@ def test_get_asset_data() -> None:
                 name = client.assets.get_hash_map(_skill.hash_id)
                 assert name is not None
 
+
 def test_artifacts() -> None:
     """
         Test case 2:
@@ -96,7 +98,7 @@ def test_artifacts() -> None:
             for sub in data.detail.substats:
                 assert sub.prop_id != ""
                 assert sub.name is not None
-        
+
 
 def test_weapons():
     """
@@ -124,10 +126,11 @@ def test_weapons():
             for sub in data.detail.substats:
                 assert sub.prop_id != ""
                 assert sub.name is not None
-        
+
         assert data.level == raw["weapon"]["level"]
         if "affixMap" in raw["weapon"]:
             assert data.refinement == raw["weapon"]["affixMap"][list(raw["weapon"]["affixMap"].keys())[0]] + 1
+
 
 def test_costumes() -> None:
     """
@@ -141,14 +144,15 @@ def test_costumes() -> None:
         assert _costume.id == int(costume)
         # Check icon filename
         assert "_AvatarIcon_" in _costume.images.icon.filename and \
-                "_AvatarIcon_Side_" in _costume.images.side.filename and \
-                "_Costume_" in _costume.images.banner.filename and \
-                "_Card" in _costume.images.card.filename
+               "_AvatarIcon_Side_" in _costume.images.side.filename and \
+               "_Costume_" in _costume.images.banner.filename and \
+               "_Card" in _costume.images.card.filename
 
         assert _costume.images.icon.url.startswith("https://") and \
-                _costume.images.side.url.startswith("https://") and \
-                _costume.images.banner.url.startswith("https://") and \
-                _costume.images.card.url.startswith("https://")
+               _costume.images.side.url.startswith("https://") and \
+               _costume.images.banner.url.startswith("https://") and \
+               _costume.images.card.url.startswith("https://")
+
 
 def test_namecards() -> None:
     """
@@ -161,9 +165,9 @@ def test_namecards() -> None:
         assert _namecard is not None
         assert _namecard.id == int(costume)
         # Check icon filename
-        assert  _namecard.icon.url.startswith("https://") and \
-                _namecard.banner.url.startswith("https://") and \
-                _namecard.navbar.url.startswith("https://")
+        assert _namecard.icon.url.startswith("https://") and \
+               _namecard.banner.url.startswith("https://") and \
+               _namecard.navbar.url.startswith("https://")
 
         # Get name hash map
         name = client.assets.get_hash_map(_namecard.hash_id)

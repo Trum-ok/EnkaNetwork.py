@@ -1784,6 +1784,21 @@
         "skillIcon": "Skill_E_Neuvillette_01",
         "proudSkillGroupId": 8739
     },
+    "10881": {
+        "nameTextMapHash": 2197772997,
+        "skillIcon": "Skill_A_Catalyst_MD",
+        "proudSkillGroupId": 8831
+    },
+    "10882": {
+        "nameTextMapHash": 2197766497,
+        "skillIcon": "Skill_S_Charlotte_01",
+        "proudSkillGroupId": 8832
+    },
+    "10883": {
+        "nameTextMapHash": 2190766497,
+        "skillIcon": "Skill_E_Charlotte_01",
+        "proudSkillGroupId": 8839
+    },
     "10891": {
         "nameTextMapHash": 2195752997,
         "skillIcon": "Skill_A_01",

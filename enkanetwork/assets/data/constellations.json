@@ -1870,5 +1870,29 @@
     "882": {
         "nameTextMapHash": 5945977611,
         "icon": "UI_Talent_S_Furina_02"
+    },
+    "883": {
+        "nameTextMapHash": 4445977611,
+        "icon": "UI_Talent_S_Charlotte_01"
+    },
+    "884": {
+        "nameTextMapHash": 5945888811,
+        "icon": "UI_Talent_S_Charlotte_02"
+    },
+    "885": {
+        "nameTextMapHash": 5998907611,
+        "icon": "UI_Talent_U_Charlotte_01"
+    },
+    "886": {
+        "nameTextMapHash": 5900077611,
+        "icon": "UI_Talent_S_Charlotte_03"
+    },
+    "887": {
+        "nameTextMapHash": 5945977911,
+        "icon": "UI_Talent_U_Charlotte_02"
+    },
+    "888": {
+        "nameTextMapHash": 5945977976,
+        "icon": "UI_Talent_S_Charlotte_04"
     }
 }
