@@ -1,4 +1,5 @@
 # Enka Network Python
+## Current version: 4.2
 
 EN | [TH](https://github.com/mrwan200/EnkaNetwork.py/blob/master/README_TH.md) | [JA](https://github.com/mrwan200/EnkaNetwork.py/blob/master/README_JA.md)
 
